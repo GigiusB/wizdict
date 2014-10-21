@@ -1,0 +1,5 @@
+include setup.py
+include LICENSE
+recursive-include wizdict *.py
+recursive-exclude . *.egg-info
+recursive-exclude . *.mo *.pyc *.db *.bak
