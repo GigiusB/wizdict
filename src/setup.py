@@ -45,7 +45,7 @@ def scan_dir( target, packages=[], data_files=[] ):
             data_files.append([dirpath, [os.path.join(dirpath, f) for f in filenames]])
     return packages, data_files
 
-packages, data_files = scan_dir('tm470')
+packages, data_files = scan_dir('wizdict')
 
 from wizdict import __VERSION__
 NAME = "wizdict"
@@ -54,12 +54,11 @@ NAME = "wizdict"
 setup(
     name=NAME,
     version=__VERSION__,
-    url='http://www.k-tech.it/',
     download_url='#',
     author='G.Bronzini',
     author_email='g.bronzini@gmail.com',
     license="http://creativecommons.org/licenses/by-nc/3.0/",
-    description='Creative Commons 3.0',
+    description='Wizard Dictionaries, advanced dictionaries utilities for Python',
     packages=packages,
 #    cmdclass=cmdclasses,
     data_files=data_files,
@@ -72,7 +71,7 @@ setup(
     install_requires = [
      ],
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Environment :: Python Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Creative Commons 3.0',
