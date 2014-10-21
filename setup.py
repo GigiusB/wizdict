@@ -18,12 +18,10 @@ setup(
     packages=['wizdict'],
     classifiers=[
         'Development Status :: 4 - Beta',
-        'Environment :: Python Environment',
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: Creative Commons 3.0',
+        'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Framework :: Django',
+        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         ],
 )
