@@ -1,7 +1,0 @@
-include setup.py
-include logger_config.py
-include requirements.pip
-include LICENSE
-recursive-include wizdict *.py
-recursive-exclude *.egg-info
-recursive-exclude *.mo *.pyc *.db *.bak
